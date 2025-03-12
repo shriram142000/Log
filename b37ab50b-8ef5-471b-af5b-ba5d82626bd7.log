@@ -1,0 +1,66 @@
+[2025-03-11 18:17:39,667 INFO: ai_buddy.py->run_worker():1312]: Process starts for transaction id: b37ab50b-8ef5-471b-af5b-ba5d82626bd7
+[2025-03-11 18:17:39,669 INFO: ai_buddy.py->run_worker():1313]: Connection type: Azure-OpenAI
+[2025-03-11 18:17:39,675 INFO: ai_buddy.py->get_directory_stats():436]: file_count: 3, file_types: {'.java': 3}, folder_count: 6, total_lines: 196
+[2025-03-11 18:17:39,688 INFO: ai_buddy.py->read_files_and_do_openai():778]: Files to process: [
+    {
+        "id": 23696,
+        "completion_tokens": 0,
+        "cost_per_api": 0.0,
+        "error": null,
+        "error_code": 0,
+        "file_path": "transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent/Atomic1.java",
+        "job_type": "1_Documentation",
+        "output_file_name_with_path": null,
+        "prompt_tokens": 0,
+        "status": "Yet to Start",
+        "status_description": null,
+        "t_id": 23694,
+        "total_tokens": 0,
+        "trans_id": "b37ab50b-8ef5-471b-af5b-ba5d82626bd7",
+        "transaction_id": null,
+        "dependency_tree_imageurl": null
+    },
+    {
+        "id": 23697,
+        "completion_tokens": 0,
+        "cost_per_api": 0.0,
+        "error": null,
+        "error_code": 0,
+        "file_path": "transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent/ConcurrentHashMap1.java",
+        "job_type": "1_Documentation",
+        "output_file_name_with_path": null,
+        "prompt_tokens": 0,
+        "status": "Yet to Start",
+        "status_description": null,
+        "t_id": 23694,
+        "total_tokens": 0,
+        "trans_id": "b37ab50b-8ef5-471b-af5b-ba5d82626bd7",
+        "transaction_id": null,
+        "dependency_tree_imageurl": null
+    },
+    {
+        "id": 23698,
+        "completion_tokens": 0,
+        "cost_per_api": 0.0,
+        "error": null,
+        "error_code": 0,
+        "file_path": "transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent/Executors1.java",
+        "job_type": "1_Documentation",
+        "output_file_name_with_path": null,
+        "prompt_tokens": 0,
+        "status": "Yet to Start",
+        "status_description": null,
+        "t_id": 23694,
+        "total_tokens": 0,
+        "trans_id": "b37ab50b-8ef5-471b-af5b-ba5d82626bd7",
+        "transaction_id": null,
+        "dependency_tree_imageurl": null
+    }
+]
+[2025-03-11 18:17:39,700 INFO: ai_buddy.py->execute_openai():129]: Executing Azure-OpenAI for file id: 23696
+[2025-03-11 18:17:58,212 INFO: ai_buddy.py->read_files_and_do_openai():913]: Processed Input file: transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent\Atomic1.java -> Moved to: transactions/output/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/1_Documentation/src/com/winterbe/java8/samples/concurrent\Atomic1.md
+[2025-03-11 18:17:58,216 INFO: ai_buddy.py->execute_openai():129]: Executing Azure-OpenAI for file id: 23697
+[2025-03-11 18:18:16,963 INFO: ai_buddy.py->read_files_and_do_openai():913]: Processed Input file: transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent\ConcurrentHashMap1.java -> Moved to: transactions/output/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/1_Documentation/src/com/winterbe/java8/samples/concurrent\ConcurrentHashMap1.md
+[2025-03-11 18:18:16,966 INFO: ai_buddy.py->execute_openai():129]: Executing Azure-OpenAI for file id: 23698
+[2025-03-11 18:18:31,904 INFO: ai_buddy.py->read_files_and_do_openai():913]: Processed Input file: transactions/input/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/src/com/winterbe/java8/samples/concurrent\Executors1.java -> Moved to: transactions/output/b37ab50b-8ef5-471b-af5b-ba5d82626bd7/1_Documentation/src/com/winterbe/java8/samples/concurrent\Executors1.md
+[2025-03-11 18:18:31,918 INFO: ai_buddy.py->get_directory_stats():436]: file_count: 4, file_types: {'.json': 1, '.md': 3}, folder_count: 7, total_lines: 299
