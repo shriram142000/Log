@@ -1,0 +1,26 @@
+[2025-03-10 19:54:39,620 INFO: ai_buddy.py->run_worker():1312]: Process starts for transaction id: 5fc2c66c-8d89-4818-aada-041c5ad755d2
+[2025-03-10 19:54:39,621 INFO: ai_buddy.py->run_worker():1313]: Connection type: Azure-OpenAI
+[2025-03-10 19:54:39,625 INFO: ai_buddy.py->get_directory_stats():436]: file_count: 1, file_types: {'.txt': 1}, folder_count: 1, total_lines: 3
+[2025-03-10 19:54:39,653 INFO: ai_buddy.py->read_files_and_do_openai():778]: Files to process: [
+    {
+        "id": 23564,
+        "completion_tokens": 0,
+        "cost_per_api": 0.0,
+        "error": null,
+        "error_code": 0,
+        "file_path": "transactions/input/5fc2c66c-8d89-4818-aada-041c5ad755d2/Docs/Login.txt",
+        "job_type": "1_Documentation",
+        "output_file_name_with_path": null,
+        "prompt_tokens": 0,
+        "status": "Yet to Start",
+        "status_description": null,
+        "t_id": 23562,
+        "total_tokens": 0,
+        "trans_id": "5fc2c66c-8d89-4818-aada-041c5ad755d2",
+        "transaction_id": null,
+        "dependency_tree_imageurl": null
+    }
+]
+[2025-03-10 19:54:39,677 INFO: ai_buddy.py->execute_openai():129]: Executing Azure-OpenAI for file id: 23564
+[2025-03-10 19:54:48,558 INFO: ai_buddy.py->read_files_and_do_openai():913]: Processed Input file: transactions/input/5fc2c66c-8d89-4818-aada-041c5ad755d2/Docs\Login.txt -> Moved to: transactions/output/5fc2c66c-8d89-4818-aada-041c5ad755d2/1_Documentation/Docs\Login.pdf
+[2025-03-10 19:54:48,570 INFO: ai_buddy.py->get_directory_stats():436]: file_count: 2, file_types: {'.json': 1, '.pdf': 1}, folder_count: 2, total_lines: 21
